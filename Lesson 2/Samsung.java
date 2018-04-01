@@ -1,8 +1,13 @@
+/* Class: Java 2 (CIS 263AA)
+ *  Author: Sachin Haldipur
+ *  Exercise 1
+ */
+
 public class Samsung implements Phone
 {
     @Override
-    public void call() {
-        System.out.println("Call Samsung.");
+    public void call(Person person) {
+        System.out.println(person.getName() + " will call Samsung with " + person.getPhoneNumber() + ".");
     }
 
     @Override

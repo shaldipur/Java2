@@ -1,14 +1,23 @@
+/* Class: Java 2 (CIS 263AA)
+ *  Author: Sachin Haldipur
+ *  Exercise 2
+ */
+
+
 public class Person
 {
+    //set fields
     String name;
     int phoneNumber;
 
+    //initialize fields in constructor
     public Person(String name, int phoneNumber){
 
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
 
+    //accessor methods
     public String getName() {
         return name;
     }

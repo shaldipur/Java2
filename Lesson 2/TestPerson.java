@@ -1,3 +1,8 @@
+/* Class: Java 2 (CIS 263AA)
+ *  Author: Sachin Haldipur
+ *  Exercise 2
+ */
+
 public class TestPerson
 {
     public static void main(String[] args)
