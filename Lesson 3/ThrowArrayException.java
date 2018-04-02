@@ -1,3 +1,9 @@
+/* Class: Java 2 (CIS 263AA)
+ *  Author: Sachin Haldipur
+ *  Lesson 3
+ *  Exercise 1
+ */
+
 
 import java.util.Scanner;
 
@@ -33,7 +39,7 @@ public class ThrowArrayException
             try {
                 System.out.println("The name associated with the array index is " + names[x] + ".");
             } catch (Exception e) {
-                System.out.println((e.toString()));
+                System.out.println(("The error is " + e.toString() + ". " + index + " is outside the bounds of the array."));
             }
             input.close();
     }
