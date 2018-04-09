@@ -7,7 +7,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.ArrayList;
+
 
 
 public class PhoneBook extends JFrame implements ActionListener{
@@ -26,6 +26,8 @@ public class PhoneBook extends JFrame implements ActionListener{
 
 
     public PhoneBook(){
+
+        super("Display Phone Numbers");
 
         name.addItem("Bob");
         name.addItem("Sally");
