@@ -12,9 +12,7 @@ import java.util.ArrayList;
 
 public class Name extends JFrame implements ActionListener {
 
-    //JFrame setup
-
-    //String name;
+    //JFrame setup and field initialization
 
     JLabel instruction = new JLabel("Please click the button:");
 
@@ -32,6 +30,7 @@ public class Name extends JFrame implements ActionListener {
 
     ArrayList<String> names = new ArrayList<String>();
 
+    //constructor
 
     public Name(){
 
